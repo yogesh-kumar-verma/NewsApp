@@ -7,7 +7,10 @@ export class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav
+          className="navbar navbar-expand-lg navbar-dark "
+          style={{ backgroundColor: "red" }}
+        >
           <div className="container-fluid">
             <Link className="navbar-brand" to="/">
               NewsHub
@@ -68,11 +71,6 @@ export class Navbar extends Component {
                     technology
                   </Link>
                 </li>{" "}
-                <li className="nav-item">
-                  <Link className="nav-link" to="/about">
-                    About
-                  </Link>
-                </li>
               </ul>
             </div>
           </div>
