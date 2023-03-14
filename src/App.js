@@ -29,7 +29,7 @@ export default class App extends Component {
                   <News
                     apikey={this.apikey}
                     setProgress={this.setProgress}
-                    pageSize={9}
+                    pageSize={12}
                     key="home"
                     category={"general"}
                     country={"in"}
@@ -44,7 +44,7 @@ export default class App extends Component {
                     apikey={this.apikey}
                     setProgress={this.setProgress}
                     key="entertainment"
-                    pageSize={9}
+                    pageSize={12}
                     category={"entertainment"}
                     country={"in"}
                   />
